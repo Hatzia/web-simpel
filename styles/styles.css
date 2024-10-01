@@ -12,6 +12,26 @@ h2,h3 {
   
      }
 
+h2.fancy{ 
+        font-weight: bold;
+        color: black;
+        text-shadow: 4px 4px 3px #00a2c6;
+       }
+ul      {
+        font-size: 20px;
+}
+
+a[href] {
+        color: blue;
+        }
+
+a[href*='1'] {
+    background-color: gold;
+}
+
+
+
+
 footer  {
         padding: 20px;
         color: white;
