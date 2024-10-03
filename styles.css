@@ -1,0 +1,57 @@
+body{
+        font-family: sans-serif;
+    }
+
+h1  {
+        color: #00a2c6;
+        text-decoration: underline;
+    }
+
+h2,h3 {
+        color: #09be3088;
+  
+     }
+
+h2.fancy{ 
+        font-weight: bold;
+        color: black;
+        text-shadow: 4px 4px 3px #00a2c6;
+       }
+ul      {
+        font-size: 20px;
+        }
+
+
+a[href*='0'] {
+    background-color: skyblue;
+        }
+
+a[href] {
+        color: blue;
+}
+
+a:link {
+        color: blue
+        }
+
+a:visited {
+        color: green;
+        }
+
+a:hover {
+           color: orange;
+        }
+
+a:active {
+        color: pink;
+        }
+
+
+
+
+
+footer  {
+        padding: 20px;
+        color: white;
+        background-color: #00a2c6;
+    }
