@@ -19,15 +19,33 @@ h2.fancy{
        }
 ul      {
         font-size: 20px;
-}
+        }
+
+
+a[href*='0'] {
+    background-color: skyblue;
+        }
 
 a[href] {
         color: blue;
+}
+
+a:link {
+        color: blue
         }
 
-a[href*='1'] {
-    background-color: gold;
-}
+a:visited {
+        color: green;
+        }
+
+a:hover {
+           color: orange;
+        }
+
+a:active {
+        color: pink;
+        }
+
 
 
 
