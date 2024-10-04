@@ -1,5 +1,5 @@
 body{
-        font-family: sans-serif;
+        font-family: 'Quicksand', sans-serif;
     }
 
 h1  {
@@ -30,7 +30,7 @@ a[href] {
         color: blue;
 }
 
-a:link {
+a:link { 
         color: blue
         }
 
