@@ -1,52 +1,58 @@
 body{
         font-family: 'Quicksand', sans-serif;
-    }
+}
 
-h1  {
-        color: #00a2c6;
-        text-decoration: underline;
-    }
+h1.fancy{ 
+          font-weight: bold;
+          color: black;
+          text-shadow: 4px 4px 3px skyblue  ;
+}
 
-h2,h3 {
-        color: #09be3088;
+h2,h3{
+        color: steelblue;
   
-     }
+}
 
-h2.fancy{ 
-        font-weight: bold;
-        color: black;
-        text-shadow: 4px 4px 3px #00a2c6;
-       }
-ul      {
+ul {
         font-size: 20px;
-        }
+}
 
 
-a[href*='0'] {
-    background-color: skyblue;
-        }
+a[href*='0']{
+        background-color: gold;
+}
 
-a[href] {
+a[href]{
         color: blue;
 }
 
-a:link { 
+a:link{ 
         color: blue
-        }
-
-a:visited {
-        color: green;
-        }
-
-a:hover {
-           color: orange;
-        }
+}
 
 a:active {
         color: pink;
-        }
+ }
 
+nav a{
+        font-size: 18px;
+        font-weight: 400px;
+        text-decoration: none;
+}
+nav a:hover{
+        font-weight: bold;
+}
 
+.profile header{
+        text-align: center;
+}
+
+.featured-image{
+        width: 100%;
+        max-height: 300px;
+        object-fit: cover;
+        object-position: center;
+}
 
 
 
@@ -54,4 +60,6 @@ footer  {
         padding: 20px;
         color: white;
         background-color: #00a2c6;
+        text-align: center;
+        font-weight: bold;
     }
