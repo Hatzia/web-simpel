@@ -3,14 +3,14 @@ body{
 }
 
 h1.fancy{ 
-          font-weight: bold;
+          font-weight: bolder;
           color: black;
           text-shadow: 4px 4px 3px skyblue  ;
 }
 
 h2,h3{
         color: steelblue;
-  
+        font-weight: bold;
 }
 
 ul {
@@ -23,16 +23,16 @@ a[href*='0']{
 }
 
 a[href]{
-        color: blue;
-}
-
-a:link{ 
-        color: blue
+        color: white;
 }
 
 a:active {
         color: pink;
  }
+
+a:hover {
+          color: blue;
+}
 
 nav a{
         font-size: 18px;
@@ -41,6 +41,7 @@ nav a{
 }
 nav a:hover{
         font-weight: bold;
+        color: white;
 }
 
 .profile header{
@@ -79,10 +80,15 @@ nav li {
         margin-right: 20px;
 }
 
+nav{
+        background-color: #00a2c6;
+        padding: 5px;
+}
+
 footer  {
         padding: 20px;
         color: white;
-        background-color: #00a2c6;
+        background-color: #00c8eb;
         text-align: center;
         font-weight: bold;
     }
