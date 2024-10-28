@@ -87,8 +87,11 @@ nav li {
 nav{
         background-color: #00a2c6;
         padding: 5px;
+      
         position: sticky;
-        top: 0%;
+        top: 0;
+      
+
 }
 
 main {
@@ -122,13 +125,22 @@ aside {
 
 .tugas {
         padding-top: 5%;
+        padding-left: 2%;
 }
 
+.Scratch{
+        padding-top: 3%;
+        padding-left: 2%;
+}
+
+
 @media screen and (max-width: 1000px) {
-        
         #content, aside {
                 width: 100%;
-                padding: 0%;
+                padding: 0;
         }
 }
 
+header {
+        display: inline;
+}
