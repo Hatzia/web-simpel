@@ -5,7 +5,7 @@ body{
         padding: 0;
 }
 
-h1.fancy{ 
+h1.fancy{  
           font-weight: bolder;
           color: black;
           text-shadow: 4px 4px 3px skyblue  ;
@@ -130,7 +130,7 @@ aside {
 }
 
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1200px) { 
         main {
                 flex-flow: column nowrap;
         }
